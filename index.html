@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
@@ -25,14 +25,14 @@
     <div class="intro">
         <div class="nav">
             <div class="logo">
-                <img src="/img/logo/logo.png" width="140px" alt="">
+                <img src="./img/logo/logo.png" width="140px" alt="">
             </div>
             <div class="nav_links">
-                <img src="/img/ui/arrowLeft.svg" alt="" class="nav_arrow">
+                <img src="./img/ui/arrowLeft.svg" alt="" class="nav_arrow">
                 <div class="nav_number">
                     <span>1</span>/<span>9</span>
                 </div>
-                <img src="/img/ui/arrowRight.svg" alt="" class="nav_arrow">
+                <img src="./img/ui/arrowRight.svg" alt="" class="nav_arrow">
                 <div class="nav_text">Выбирите модель</div>
                 <div class="nav_href">
                     <div class="nav_burger"></div>
@@ -42,19 +42,20 @@
         </div>
         <div class="app">
             <div class="app_inner">
-                <button class="app_button">big</button>
+               
                 <div class="selected_door">
                     <div class="selected_door_image">
-                        <img class="door_img" src="/img/door/types/1.png" alt="">
-                        <img class="left_shadow"  src="/img/door/leftShadow.png" alt="">
-                        <img class="top_shadow"  src="/img/door/topShadow.png" alt="">
-                        <img class="right_shadow"  src="/img/door/rightShadow.png" alt="">
-                        <img class="left_corner"  src="/img/door/leftCorner.png" alt="">
-                        <img class="right_corner"  src="/img/door/rightCorner.png" alt="">
+                        <img class="door_img" src="./img/door/types/left/1.png" alt="">
+                        
+                        <img class="left_shadow"  src="./img/door/leftShadow.png" alt="">
+                        <img class="top_shadow"  src="./img/door/topShadow.png" alt="">
+                        <img class="right_shadow"  src="./img/door/rightShadow.png" alt="">
+                        <img class="left_corner"  src="./img/door/leftCorner.png" alt="">
+                        <img class="right_corner"  src="./img/door/rightCorner.png" alt="">
                     </div>
                     
                 </div>
-                <img class="app_floor" src="/img/app/floor.jpg" alt="">
+                
                 <div class="app_change_color">Цвет</div>
             </div>      
         </div>
@@ -71,62 +72,27 @@
                 <div class="settings_block">
                     <div class="settings_title">Направление Ручки</div>
                     <div class="settings_buttons">
-                        <div class="settings_button active">Слева</div>
-                        <div class="settings_button">Справа</div>
+                        <div class="settings_button active" id="button_left">Слева</div>
+                        <div class="settings_button" id="button_right">Справа</div>
                     </div>
                 </div>
                 <div class="settings_block">
                     <div class="settings_title">ТИП И КОНСТРУКЦИЯ</div>
                     <div class="settings_types"></div>
                 </div>
-                <div class="settings_block">
-                    <div class="settings_title">РАЗМЕРЫ</div>
-                    <div class="settings_inputs">
-                        <div class="settings_input_block">
-                            <div class="settings_subtitle">ширина</div>
-                            <input class="settings_input" placeholder="от 1450" type="text">
-                            
-                        </div>
-                        <div class="settings_input_block">
-                            <div class="settings_subtitle">высота</div>
-                            <input class="settings_input" placeholder="от 1850" type="text">
-                            
-                        </div>
-                    </div>
-                    <div class="settings_text long">Если на данный момент у вас нет информации о размерах, вы можете пропустить этот шаг.</div>
-                </div>
-                <div class="settings_block">
-                    <div class="settings_title">ЦВЕТА</div>
-                    
-                </div>
-                <div class="settings_block">
-                    <div class="settings_title">Стекло</div>
-                    
-                </div>
-                <div class="settings_block">
-                    <div class="settings_title">Грифф</div>
-                    
-                </div>
-                <div class="settings_block">
-                    <div class="settings_title">ВНУТРЕННЯЯ ручка</div>
-                    
-                </div>
-                <div class="settings_block">
-                    <div class="settings_title">Блокировка</div>
-                    
-                </div>
+                
             </div>
            
         </div>
         
         <footer class="footer">
-            <div class="footer_info"></div>
+            
             <div class="footer_button">ОТПРАВИТЬ ЗАПРОС</div>
         </footer>
     </div>
 
     
 
-    <script src="/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
